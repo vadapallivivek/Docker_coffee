@@ -1,122 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Cozy Coffee Corner</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #fff8f0;
-        }
+  <meta charset="UTF-8">
+  <title>My Static Web Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
 
-        header {
-            background-color: #6f4e37;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
+    header {
+      background: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
 
-        nav {
-            background-color: #a9746e;
-            padding: 10px;
-            text-align: center;
-        }
+    nav {
+      background: #555;
+      padding: 0.5rem;
+      text-align: center;
+    }
 
-        nav a {
-            color: white;
-            margin: 0 20px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+    .container {
+      display: flex;
+      padding: 20px;
+    }
 
-        section {
-            padding: 30px;
-        }
+    .main {
+      flex: 3;
+      background: white;
+      padding: 20px;
+      margin-right: 20px;
+    }
 
-        .menu {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
+    .sidebar {
+      flex: 1;
+      background: #ddd;
+      padding: 20px;
+    }
 
-        .menu-item {
-            background-color: #f3e5d0;
-            padding: 15px;
-            border-radius: 8px;
-            width: 200px;
-        }
-
-        footer {
-            background-color: #6f4e37;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-        }
-    </style>
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Cozy Coffee Corner</h1>
-        <p>Your perfect coffee break!</p>
-    </header>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Menu</a>
-        <a href="#">Contact</a>
-    </nav>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Welcome to Cozy Coffee Corner, your go-to place for freshly brewed coffee, homemade pastries, and a relaxing atmosphere. We use only premium beans and locally sourced ingredients to create your favorite drinks and treats.</p>
-    </section>
+  <div class="container">
+    <div class="main">
+      <h2>Main Content Area</h2>
+      <p>This is a simple static web page made with HTML and CSS. You can edit this content to match your own website's purpose.</p>
+    </div>
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <p>This could include links, updates, or other content.</p>
+    </div>
+  </div>
 
-    <section id="menu">
-        <h2>Our Menu</h2>
-        <div class="menu">
-            <div class="menu-item">
-                <h3>Espresso</h3>
-                <p>Rich and bold shot of coffee.</p>
-                <p><strong>$2.50</strong></p>
-            </div>
-            <div class="menu-item">
-                <h3>Latte</h3>
-                <p>Smooth espresso with steamed milk.</p>
-                <p><strong>$3.50</strong></p>
-            </div>
-            <div class="menu-item">
-                <h3>Cappuccino</h3>
-                <p>Espresso with foamed milk.</p>
-                <p><strong>$3.75</strong></p>
-            </div>
-            <div class="menu-item">
-                <h3>Mocha</h3>
-                <p>Chocolate flavored coffee treat.</p>
-                <p><strong>$4.00</strong></p>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: hello@cozycoffee.com</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Location: 123 Brew Street, Bean Town</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Cozy Coffee Corner. All rights reserved.</p>
-    </footer>
+  <footer>
+    &copy; 2025 My Static Website. All rights reserved.
+  </footer>
 
 </body>
 </html>
-
